@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+    margin: 20px 10px;
+}
+.choiceBtn:hover{
+    cursor: pointer;
+background-color: brown;
+}
+
+#playerText{
+color: black;
+padding: 20px;
+}
+#computerText{
+ color: black;
+ padding: 20px;
+}
+#resultText{
+    padding: 10px;
+}
+#gameDiv{
+    font-family: 'Courier New', Courier, monospace,cursive;
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: grey;
+    text-align: center;
+    margin: 500px;
+   height: 350px;
+   /* gap: 2rem; */
+      
+}
